@@ -8,11 +8,47 @@
 
 /* GENERAL */
 
+body {
+    background-color: #073B4D;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px 0;
+    color: white;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.container-fizzbuzz {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fizzbuzz * {
+    font-size: 20px;
+    height: 100px;
+    width: 10%;
+    line-height: 100px;
+    background-color: #1389B2;
+    margin: 10px;
+} 
+
+.container-fizzbuzz > .fizz {
+    background-color: #11D6A1;
+} 
+
+.container-fizzbuzz > .buzz {
+    background-color: #FFD166;
+} 
+
+.container-fizzbuzz > .fizzbuzz {
+    background-color: #F1466F;
+} 
